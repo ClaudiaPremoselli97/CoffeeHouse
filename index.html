@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Meta tag del sito-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Homepage del CoffeeHouse di Bitcamp" />
+    <meta name="keywords" content="CoffeeHouse, Casa del Caffè, Miscele arabiche, Dolci, Pasticceria, sala da thè, thè" />
+    <meta name="author" content="Claudia Premoselli" />
+    <meta name="robots" content="index, follow" />
+    <meta name="referrer" content="referrer" />
+
+    <title>HomePage Coffee House</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background: url('img/bakery.jpeg') fixed;
+            background-size: cover;
+           
+             }
+
+        header {
+            text-align: center;
+            background: rgba(170,172,119, 0.8);
+            padding: 30px;
+        }
+
+        nav {
+            text-align:center;
+            background: rgb(170,172,119);
+            padding: 10px;
+           
+         }
+
+            nav a {
+                margin: 0;
+                text-decoration: none;
+
+            }
+           nav a:link{
+               color:#b8662B; 
+               
+           }
+
+           nav a:visited{
+               color:#7a4c17;
+           }
+
+                nav a:hover {
+                    background-color: #CE7869;
+                    padding: 5px;
+                    color: #E5DAB1;
+                    border-radius: 5px;
+                }
+             nav a:active{
+                 color: #E7C7A2;
+             }
+
+            /**Classe descrizione*/
+             .descrizione {
+                 background-color: #fff;
+                 text-align: center;
+                 margin: 30px 60px 30px 60px;
+                 padding: 20px;
+                 border-radius: 10px;
+
+
+             }
+
+                .descrizione img {
+            width: 50%;
+            height: 50%;
+            object-fit: cover;
+        
+            }
+
+             .descrizione img:hover {
+                 animation: 1s blinker linear infinite;
+                 
+             }
+
+           #brown {
+            color:saddlebrown;
+            }
+
+          .descrizione ul {
+              list-style:none;
+              color:saddlebrown;
+              padding:0;
+          }
+
+        .descrizione a {
+            margin: 0;
+            text-decoration: none;
+            nav a
+        }
+
+        a:link {
+            color: #b8662B;
+        }
+
+        a:visited {
+            color: #7a4c17;
+        }
+
+        a:hover {
+            background-color: #CE7869;
+            padding: 5px;
+            color: #E5DAB1;
+            border-radius: 5px;
+        }
+
+        a:active {
+            color: #E7C7A2;
+        }
+
+
+         
+
+        footer {
+            text-align: center;
+            background: rgba(170,172,119, 0.8);
+            padding: 5px;
+        }
+        
+
+
+        @keyframes blinker {
+            0%  {
+                  opacity:1.0;
+              }
+              25% {
+                    opacity: 0.8;
+                }
+              50% {
+                    opacity: 0.5;
+                }
+
+              75% {
+                    opacity: 0.8;
+                }
+              100% {
+                    opacity: 1.0;
+                }
+             }
+
+       
+
+    
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.png" />
+        <h1>CoffeeHouse</h1>
+        <p>Tutto il caffè del mondo e non solo!</p>
+    </header>
+
+      <nav>
+         <a href="#">Home</a>
+         <a href="menu.html">Menu</a>
+         <a href="chiSiamo.html">Chi siamo</a>
+         <a href="contatti.html">Contatti</a>
+         <a href="prenotazioni.html">Prenotazioni</a>
+      </nav>
+    
+    <section class="descrizione">
+        <h2>Benvenuto nel nostro sito ufficiale della CoffeeHouse</h2>
+        <h3><em>Scopri i nostri prodotti e le nostre offerte</em></h3>
+        
+        <h3>Dolce del mese: <span id="brown">PANCIOK</span></h3>
+        <img src="img/panciok.jpg" alt="panciok" />
+        <ul>
+            <li>Fondente</li>
+            <li>Pistacchio</li>
+            <li>Crema</li>
+            <li>Nocciola</li>
+        </ul>
+       
+        <p>PREZZO:<strong> 2,50€</strong></p>
+        <a href="menu.html">Sei curioso? Scopri tutto il nostro dolcissimo menù</a>
+        
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CoffeeHouse - Tutti i diritti riservati.</p>
+    </footer>
+   
+</body>
+</html>
